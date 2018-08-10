@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) 
+	{
+	 double length;
+	 Scanner in = new Scanner(System.in);
+
+     length = Math.sqrt(345);
+     System.out.println("The length of the rectangle is : " + length);
+	}
+}
