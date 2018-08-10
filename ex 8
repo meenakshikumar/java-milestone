@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) 
+	{
+	 double r, h,p, pi,surface_area,volume;
+	 Scanner in = new Scanner(System.in);
+	 System.out.println("Enter  value of radius  of  cone");
+	 p = in.nextDouble();
+	 if(p<=0)
+	 System.out.println("Enter only positive & non-zero values");
+	 p = in.nextDouble();
+	 r = p;
+	 System.out.println("Enter  value of height  of  cone");
+     p = in.nextDouble();
+     if(p<=0)
+	 System.out.println("Enter only positive & non-zero values");
+	 p = in.nextDouble();
+	 h = p;
+     pi = (22/7);
+     surface_area = pi * r * (r + Math.sqrt(r * r +h * h));
+     volume = ( pi * r * r * h) /3;
+     System.out.println("The Surface Area of cone is : " + surface_area);
+     System.out.println("The Volume of cone is : " + volume);
+	}
+}
