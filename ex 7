@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String[] args) 
+    {
+        int total , result, test;
+        total = 50;
+        test =  (50 * 50 )/100;
+        result = (2* test)/7;
+        System.out.println("No.of.students passed in the final exam is : " + result);
+        }            
+}
