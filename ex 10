@@ -1,0 +1,36 @@
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String args[])
+    {
+        String str;
+        char ch;
+        int i,c,count=0;
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter the string : ");
+        str = in.nextLine();
+        int m = str.length();
+        System.out.println("Enter the character searched");
+        ch = in.next().charAt(0);
+        System.out.print("The position of " + ch + " in the given string " + str + " is ");
+        for(i=0;i<str.length();i++)
+        {
+            if(str.charAt(i)!=ch)
+            {
+             m--;
+            }
+            else
+            {
+            System.out.print(" " + i);
+            count++;
+            }
+        }
+        if(m==0)
+        {
+        System.out.print(" NULL");
+        System.out.println("\nThe specified character is not present int the string");
+        }
+        else
+        System.out.println("\nCharacter " + ch + " occurred for " + count + " times");
+    }
+}
