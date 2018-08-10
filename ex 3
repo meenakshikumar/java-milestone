@@ -1,0 +1,15 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) 
+	{
+	 int a,b,c;
+	// a + b = 25;
+	// a - b = 13;
+	 a = (10/2);
+	 b = 5 - a;
+	 c  = a * b;
+	 System.out.println("The value of a and b is : " + a  + "  " + b);
+     System.out.println("The product of the two numbers is : " + c);
+	}
+}
