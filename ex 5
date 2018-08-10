@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String[] args) 
+    {
+
+         int x = 36/ 6;
+         int a = (4 * x) + 6;
+         int b = (6 * x) + 5;
+         int c = (8 * x) + 6;
+         System.out.println("The individual shares are : " + a  + " " + b + " " + c);
+    }
+}        
+         
+         
+       
+        
+                    
+
